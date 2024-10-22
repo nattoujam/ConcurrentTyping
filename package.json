@@ -1,5 +1,5 @@
 {
-  "name": "typing",
+  "name": "concurrent-typing",
   "version": "0.0.0",
   "private": true,
   "type": "module",
@@ -14,12 +14,13 @@
   },
   "dependencies": {
     "pinia": "^2.2.4",
+    "styled-components": "^3.1.6",
     "vue": "^3.5.12",
     "vue-router": "^4.4.5"
   },
   "devDependencies": {
     "@tsconfig/node20": "^20.1.4",
-    "@types/node": "^20.16.11",
+    "@types/node": "^22.9.0",
     "@vitejs/plugin-vue": "^5.1.4",
     "@vue/eslint-config-prettier": "^10.0.0",
     "@vue/eslint-config-typescript": "^14.0.1",
